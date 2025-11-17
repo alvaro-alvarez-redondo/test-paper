@@ -79,6 +79,21 @@ This is new
 
 ![test image](imgs/test.png)
 
+This is a plot:
+
+```{r}
+#| label: fig-line-plot
+#| fig-cap: "A line plot "
+
+ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(cty, hwy)) +
+  # to create a scatterplot
+  ggplot2::geom_point() +
+  # to fit and overlay a loess trendline
+  ggplot2::geom_smooth(formula = y ~ x, method = "lm")
+```
+
+You can reference the above @fig-line-plot.
+
 This is new content. Please. Please accept it. Please.
 
 This is new content.
