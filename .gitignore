@@ -6,3 +6,5 @@ trackdown_access.json
 .Rapp.history
 .RData
 .Ruserdata
+
+**/*.quarto_ipynb

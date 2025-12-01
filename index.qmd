@@ -39,8 +39,8 @@ We develop a conceptual framework that links urban economic activity with enviro
 # Methods
 
 ## Data Sources
-Hola Catalin
-We used simulated data representing urban population growth, economic output, and ecological metrics over a 20-year period.
+
+Hola Catalin We used simulated data representing urban population growth, economic output, and ecological metrics over a 20-year period.
 
 ## Model Description
 
@@ -50,11 +50,17 @@ $$
 E_t = E_{t-1} + \alpha \cdot G_t - \beta \cdot U_t
 $$
 
+\begin{equation}
+e^x
+\end{equation}
+
 where $E_t$ is the ecological index at time $t$, $G_t$ is economic growth, and $U_t$ represents urbanization pressures.
 
 # Results
 
-Our simulation shows that moderate economic growth can be sustained without significant ecological degradation, provided that urban planning policies enforce green space and pollution controls. Figures 1 and 2 illustrate the projected trends.
+Our simulation[^1] shows that moderate economic growth can be sustained without significant ecological degradation, provided that urban planning policies enforce green space and pollution controls. Figures 1 and 2 illustrate the projected trends.
+
+[^1]: affsdflvaro
 
 # Discussion
 
@@ -67,6 +73,7 @@ This study highlights the importance of combining economic and ecological modeli
 # Test
 
 ## Section
+
 This is a simple placeholder for the manuscript's main document [@knuth84].
 
 ```{r}
@@ -75,7 +82,7 @@ a <- 1 + 2
 print(a)
 ```
 
-This is new 
+This is new
 
 ![test image](imgs/test.png)
 
@@ -106,3 +113,5 @@ rep(9, 10) - seq(1, 10)
 # Acknowledgements {.unnumbered}
 
 We thank the Example Research Council for funding support and colleagues for valuable feedback.
+
+[@BASOLO2010] @BASOLO2010
