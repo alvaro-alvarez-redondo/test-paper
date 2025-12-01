@@ -39,7 +39,7 @@ We develop a conceptual framework that links urban economic activity with enviro
 # Methods
 
 ## Data Sources
-
+Hola Catalin
 We used simulated data representing urban population growth, economic output, and ecological metrics over a 20-year period.
 
 ## Model Description
